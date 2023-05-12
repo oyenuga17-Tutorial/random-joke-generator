@@ -125,7 +125,7 @@ h1 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 .jokes-wrapper {
   margin-top: 14px;
@@ -143,6 +143,12 @@ h1 {
 .random-jokes-label {
   font-size: 4rem;
   margin-bottom: 60px;
+}
+@media (max-width: 500px) {
+  .random-jokes-label {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
 }
 
 #random-jokes {
