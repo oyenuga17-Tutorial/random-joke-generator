@@ -157,17 +157,33 @@ h1 {
   outline: none;
 }
 
-button {
+.btn {
   padding-inline: 13px;
   padding-block: 8px;
   margin-top: 7px;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
 }
 
 .span {
   padding: 40px;
   font-size: 1rem;
+}
+.form {
+  display: flex;
+  width: 270px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.input {
+  width: 75%;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+}
+.input-btn {
+  border: none;
+  padding: 0.8rem;
 }
